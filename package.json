@@ -1,0 +1,33 @@
+{
+  "name": "hapi-learning",
+  "version": "1.0.0",
+  "description": "learning hapi.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satabari/hapi-learning.git"
+  },
+  "author": "Satabari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Satabari/hapi-learning/issues"
+  },
+  "homepage": "https://github.com/Satabari/hapi-learning#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.1",
+    "dotenv": "^16.0.3",
+    "hapi-swagger": "^16.0.1",
+    "mysql2": "^3.2.3",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.6.0"
+  }
+}
